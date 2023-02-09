@@ -1,0 +1,70 @@
+<!-- ############### -->
+<!-- #  saé S1.05  # -->
+<!-- #Lucas Aguetaï# -->
+<!-- ############### -->
+
+<!DOCTYPE html>
+<html style="background-image: url(./pictures/pink-flowers.jpg);">
+<head>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Questionnaire - Ludivine Lagrange et Patrick O'Connor</title>
+</head>
+<body>
+<nav style="background-color: rgb(252, 243, 248);">
+  <ul>
+    <li><a href="./main.html" id="navbar">Page d'accueil</a></li>
+    <li><a href="./formulaire.html" id="navbar">Questionnaire</a></li>
+    <li><a href="./lieu.html" id="navbar">Lieu</a></li>
+    <li><a href="./hébergement.html" id="navbar">hébergement</a></li>
+  </ul>
+</nav>
+<center>
+<fieldset style="background-color: rgb(252, 243, 248);">
+  <legend><br><br>Vous êtes invité au mariage de Ludivine et de Patrick.<br>Pour pouvoir nous organiser, nous avons besoin que vous répondiez a ces quelques questions :</legend>
+<form method="post">
+  <p>
+    <label for="nom">Votre nom :</label>
+    <input type="text" name="Nom" id="nom" placeholder="Ex : Lucas" size="30">
+  </p>
+</form>
+<form method="post">
+  <p>
+    <label for="venue">Quand venez vous ?</label>
+    <input type="text" name="venue" id="nom" placeholder="Ex : Du 25 au 30 août" size="30">
+  </p>
+</form>
+<form method="post">
+  <p>
+    Avez vous un logement proche du mariage ?<br>
+    <input type="radio" name="logement" value="logement-oui" id="logement-oui">
+    <label for="formulaire-oui">Oui</label><br>
+    <input type="radio" name="logement" value="logement-non" id="logement-non">
+    <label for="formulaire-non">Non</label><br>
+  </p>
+</form>
+<p>Si vous n'avez pas de logement, <a href="./hébergement.html">cliquez ici</a></p>
+  <p>
+    Avez vous des allergie alimentaires ?<br>
+    <input type="radio" name="logement" value="logement-oui" id="logement-oui">Oui :<input type="text" name="logement" id="logement-oui" placeholder="Ex : Tomate, oeuf, etc...">
+    <label for="formulaire-oui"></label><br>
+    <input type="radio" name="logement" value="logement-non" id="logement-non">
+    <label for="formulaire-non">Non</label><br>
+  </p>
+</form>
+  <p>
+    Venez-vous avec des enfants ?<br>
+    <input type="radio" name="enfants" value="enfants-oui" id="enfants-oui">Oui :<input type="text, radio" name="logement" id="logement-oui" placeholder="Ex : 1 fille et 1 garçon">
+    <label for="formulaire-oui"></label><br>
+    <input type="radio" name="enfants" value="enfants-non" id="enfants-non">
+    <label for="formulaire-non">Non</label><br>
+  </p>
+</form>
+<input type="submit" value="Envoyer" />
+</fieldset>
+<br>
+<img src="./pictures/dessin2.png">
+</center>
+</body>
+</html>
